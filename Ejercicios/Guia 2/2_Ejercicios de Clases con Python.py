@@ -1,6 +1,6 @@
 #Ejerciocio 1
 print("\nEjerciocio 1")
-class Persona:
+class nombre:
     def __init__(self):
         self.nombre = ""
         
@@ -9,11 +9,12 @@ class Persona:
         
     def mostrar_nombre(self):
         print("Nombre:", self.nombre)
-persona1 = Persona()
+        
+persona1 = nombre()
 persona1.inicializar_nombre()
 persona1.mostrar_nombre() 
 
-persona2 = Persona()
+persona2 = nombre()
 persona2.inicializar_nombre()
 persona2.mostrar_nombre() 
 
